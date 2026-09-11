@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My apprenticeship off-the-job learning hub">
+  <title>Off-the-job learning hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#" aria-label="Learning hub home">
+        <span class="brand-mark" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i>
+        </span>
+        <span class="brand-name">MY<br>ACADEMY</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">MY APPRENTICESHIP</p>
+        <h1>Off-the-job learning<br>hub</h1>
+        <p class="intro">
+          Find something useful to read, watch, listen to or try.
+          Every resource includes a practical activity and an idea for evidence you could retain.
+        </p>
+      </div>
+
+      <div class="hero-stat">
+        <strong id="resourceCount">12</strong>
+        <span>starting points across<br>your apprenticeship</span>
+      </div>
+    </section>
+
+    <section class="notice">
+      <h2>Before you log hours</h2>
+      <p>
+        Off-the-job learning should be new learning, relevant to your apprenticeship and completed
+        within paid working hours. Record what you learned and how it develops your role, not simply
+        the time spent. Agree suitability with your programme team or employer where needed.
+      </p>
+    </section>
+
+    <section class="resources-section" id="resources">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">EXPLORE</p>
+          <h2>Learning starting points</h2>
+        </div>
+        <p class="section-description">
+          Use the search and filters to find something relevant to your role.
+        </p>
+      </div>
+
+      <div class="controls">
+        <label class="search">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="Search resources..." autocomplete="off">
+        </label>
+        <div class="filters" role="group" aria-label="Filter resources">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="technical">Technical</button>
+          <button class="filter" data-filter="workplace">Workplace</button>
+          <button class="filter" data-filter="projects">Projects</button>
+          <button class="filter" data-filter="professional">Professional</button>
+        </div>
+      </div>
+
+      <div class="resource-grid" id="resourceGrid"></div>
+      <p class="no-results" id="noResults" hidden>No resources match your search.</p>
+    </section>
+
+    <section class="recording">
+      <div>
+        <p class="eyebrow">KEEP YOUR EVIDENCE</p>
+        <h2>Turn learning into evidence</h2>
+      </div>
+      <div class="recording-copy">
+        <p>After each activity, make a short note. A useful record answers four questions:</p>
+        <ol>
+          <li><strong>What did I do?</strong> Describe the activity.</li>
+          <li><strong>What did I learn?</strong> Capture the new knowledge or skill.</li>
+          <li><strong>Why does it matter?</strong> Link it to your role or apprenticeship.</li>
+          <li><strong>What will I do differently?</strong> Record how you will apply it.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="starter">
+      <div>
+        <p class="eyebrow">QUICK START</p>
+        <h2>Not sure where to begin?</h2>
+        <p>Pick one resource, spend 30–60 minutes learning, complete its practical activity, then save a short reflection.</p>
+      </div>
+      <a class="button" href="#resources">Browse resources <span>→</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <p>My apprenticeship learning hub</p>
+    <p>Built with HTML, CSS &amp; JavaScript · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
